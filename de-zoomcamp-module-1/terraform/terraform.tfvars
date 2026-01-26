@@ -1,0 +1,7 @@
+credentials     = "./keys/my-creds.json"
+project         = "de-zoomcamp-485507"
+region          = "us-central1"
+location        = "US"
+bq_dataset_name = "zoomcamp_dataset"
+gcs_bucket_name = "de-zoomcamp-485507-data-lake-zoomcamp"
+gcs_storage_class = "STANDARD"
