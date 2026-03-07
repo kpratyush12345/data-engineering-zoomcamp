@@ -1,0 +1,43 @@
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Data files (large datasets)
+# -----------------------------
+*.parquet
+*.csv
+
+# If you want to ignore only specific ones instead:
+# taxi_zone_lookup.csv
+# yellow_tripdata_2025-11.parquet
+
+# -----------------------------
+# Spark output folders
+# -----------------------------
+yellow_output/
+
+# -----------------------------
+# System files
+# -----------------------------
+.DS_Store
+
+# -----------------------------
+# Python cache
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
