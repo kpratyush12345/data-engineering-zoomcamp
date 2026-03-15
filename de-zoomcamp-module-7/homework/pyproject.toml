@@ -1,0 +1,17 @@
+[project]
+name = "streaming-homework"
+version = "0.1.0"
+description = "DE Zoomcamp module 7 homework: Green Taxi streaming with Redpanda + PyFlink"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "kafka-python>=2.3.0",
+    "pandas>=3.0.1",
+    "psycopg2-binary>=2.9.11",
+    "pyarrow>=23.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]
